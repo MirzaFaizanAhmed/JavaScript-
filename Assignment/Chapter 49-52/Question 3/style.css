@@ -1,0 +1,100 @@
+
+#form,#head,#sub{
+    margin-left: 2%;
+}
+#form input{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border: none;
+    width: 30%;
+    border-bottom: 1px solid royalblue;
+    font-size: 15px;
+}
+#form input:focus{
+    outline: none;
+    background: white;
+}
+#form label{
+   
+    font-size: 13px;
+}
+#head{
+    width: 25%;
+    background: royalblue;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#sub button{
+    background: gray;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#record {
+    margin: 50px auto;
+    width: 60%;
+}
+#record tr:first-child{
+    background: green;
+    color: white;
+}
+#update , #delete{
+    background: brown;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#hidden{
+    width: 60%;
+    height: 500px;
+    background: brown;
+    position: absolute;
+    top: 950px;
+    right: 20%;
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+
+#hidden i{
+    color: yellowgreen;
+   font-size: 50px;
+    float: right;
+}
+#hidden #update{
+    text-align: center;
+    font-size: 30px;
+}
+#update_form {
+    margin-left: 10px;
+}
+#update_form input{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+   border: none;
+   border-bottom: 1px solid yellowgreen;
+    width: 20%;
+    
+    font-size: 12px;
+}
+#update_form label{
+    color: white;
+    margin-right: 20px;
+}
+#update_form #sub button{
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    background: yellowgreen;
+    color: wheat;
+}
+

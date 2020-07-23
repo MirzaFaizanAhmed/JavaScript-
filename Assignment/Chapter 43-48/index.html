@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <a href="" id="link" onclick="linkCLick()">Click me</a>
+    </div>
+
+    <div>
+        <h1>Mobile Phone Lockup</h1>
+    </div>
+    <div id="main">
+        <div id="img">
+            <img src="https://www.whatmobile.com.pk/admin/images/Qmobile/QmobileRocketLite-b.jpg" alt="">
+            <h3 onclick="mobile()">Qmobile</h3>
+        </div>
+        <div id="img">
+            <img src="https://images.priceoye.pk/huawei-y9s-2019-pakistan-priceoye-1vnu4.jpg" alt="">
+            <h3 onclick="mobile()">Huawei y9s</h3>
+        </div>
+        <div id="img">
+            <img src="https://www.pakmobizone.pk/wp-content/uploads/2019/12/Figi-fx-1.jpg" alt="">
+            <h3 onclick="mobile()">FiGi fx</h3>
+        </div>
+        <div id="img">
+            <img src="https://www.mega.pk/items_images/t_19507.png" alt="">
+            <h3 onclick="mobile()">Samsung A30</h3>
+        </div>
+    </div>
+
+
+    <div id="record">
+        <table id="tab" cellspacing='10px'>
+            <tr class="head">
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Mi</td>
+                <td>9</td>
+                <td>80000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A30</td>
+                <td>45000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Oppo</td>
+                <td>A21</td>
+                <td>22000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A50</td>
+                <td>54000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A10</td>
+                <td>20000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Oppo</td>
+                <td>A11</td>
+                <td>34000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Mi</td>
+                <td>9</td>
+                <td>32000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Infinix</td>
+                <td>Hot 8</td>
+                <td>18000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Tecno</td>
+                <td>Spark4</td>
+                <td>20000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+            <tr>
+                <td>Tecno</td>
+                <td>Spark 4 lite</td>
+                <td>14000</td>
+                <td><Button onclick="dlt(this)">Delete</Button></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div>
+        <img id="pic" onmouseover="imagebefore()" onmouseout="imageafter()" src="https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-11/Black/Apple-iPhone-11-Black-frontimage.jpg" alt="">
+    </div>
+
+    <div id="counter">
+        <h1 id="counterNumber">0</h1>
+        <button onclick="increaseCounter()">Increase</button>
+        <button onclick="decreaseCounter()">Decrease</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

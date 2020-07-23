@@ -1,0 +1,54 @@
+#img img{
+    width: 60px;
+}
+#main #img {
+    display: inline-block;
+    margin-left:80px ;
+}
+#img h3{
+    color: blueviolet;
+    cursor: pointer;
+}
+#record{
+    margin: 2% auto;
+}
+table .head{
+    background: green;
+    height: 10px;
+    padding: 0;
+}
+table th{
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+table tr td{
+    text-align: center;
+}
+table button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background: brown;
+}
+#pic{
+    width: 200px;
+}
+#counterNumber{
+    color: white;
+    background: royalblue;
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+    height: 40px;
+}
+#counter button{
+    color: white;
+    background: brown;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}

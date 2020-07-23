@@ -1,0 +1,66 @@
+#signup{
+        margin: auto;
+        width: 60%;
+        padding: 10px 50px;
+        border: 1px solid brown;
+        border-radius: 10px;
+      
+}
+#signup div{
+    margin: 50px 0;
+}
+#signup div label{
+   padding-right: 100px;
+   font-size: 22px;
+}
+#signup div input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray ;
+    margin-left: 50px;
+    font-size: 22px;
+}
+#signup div input:focus{
+    outline: none;
+}
+#signup div button{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background: brown;
+    color: white;
+    font-size: 25px;
+}
+#head h2{
+    font-size: 25px;
+    color: white;
+    background: royalblue;
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    padding: 10px ;
+}
+
+#tab_record{
+    margin: 2% 15%;
+}
+#tab_record #record th{
+    background: green;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    
+} 
+#tab_record #record td{
+    padding-right: 10px;
+}
+#tab_record #record button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    background: brown;
+}
